@@ -22,7 +22,7 @@
 		</h1>
 	</div>
 
-	<nav class="navbar navbar-default">
+	<nav class="navbar navbar-default navbar-sticky visible-lg visible-md visible-sm">
 		<div class="container-fluid">
 			
 			<div class="navbar-header">
@@ -41,6 +41,17 @@
 			</div>			
 		</div>	
 	</nav>
+
+	<nav class="navbar-sticky visible-xs" style="background-color: gray;">
+		<div class="d-flex row nav-items" >
+			<div class="col-xs-1"></div>
+			<div class="active-nav col-xs-2 " style="margin-top: 10px;"><a href="../index.html">Works</a></div>
+			<div class="col-xs-2" style="margin-top: 10px;"><a href="../about.html">About</a></div>
+			<div class=" col-xs-2"><a href="../blog.html">Imaginary museum</a></div>
+			<div class="col-xs-1"></div>
+			<div class="col-xs-2"><a href="../last_doc.html">Last documents</a></div>
+		</div>
+	</nav>
 </header>
 
 <main id="main">
@@ -49,16 +60,16 @@
 
 		<h4 class="text-center" style="font-weight: bold;">THIRIRITH N WAZAY</h4>
 
-		<div class="row topspace">
+		<div class="row topspace visible-lg visible-md visible-sm">
 			
 			<aside class="col-sm-4 sidebar sidebar-right text-center">
-				<p><img src="../assets/images/1.1.jpg" alt="" class="" width="90%"  ></p>
+				<p><img src="../assets/images/1.1.jpg" alt="" class="workpic" width="90%"  ></p>
 			</aside>
 			<aside class="col-sm-4 sidebar sidebar-right text-center">
-				<p><img src="../assets/images/1.2.jpg" alt="" class="" width="90%"  ></p>
+				<p><img src="../assets/images/1.2.jpg" alt="" class="workpic" width="90%"  ></p>
 			</aside>
 			<aside class="col-sm-4 sidebar sidebar-right text-center">
-				<p><img src="../assets/images/1.3.jpg" alt="" class="" width="90%"  ></p>
+				<p><img src="../assets/images/1.3.jpg" alt="" class="workpic" width="90%"  ></p>
 			</aside>
 
 			<iframe src='https://player.vimeo.com/video/910879224' frameborder='0' style="margin-bottom:20px;"
@@ -66,8 +77,31 @@
 			</iframe>
 
 			<aside class="col-sm-4 sidebar sidebar-right">
-				<p><img src="../assets/images/1.4.jpg" alt="" class="" width="70%"  ></p>
+				<p><img src="../assets/images/1.4.jpg" alt="" class="workpic" width="70%"  ></p>
 			</aside>
+
+		</div>
+
+		<div class="row topspace visible-xs">
+			
+			<aside class="col-sm-4 sidebar sidebar-right text-center">
+				<p><img src="../assets/images/1.1.jpg" alt="" class="workpic"  ></p>
+			</aside>
+			<aside class="col-sm-4 sidebar sidebar-right text-center">
+				<p><img src="../assets/images/1.2.jpg" alt="" class="workpic"  ></p>
+			</aside>
+			<aside class="col-sm-4 sidebar sidebar-right text-center">
+				<p><img src="../assets/images/1.3.jpg" alt="" class="workpic"  ></p>
+			</aside>
+			<aside class="col-sm-4 sidebar sidebar-right">
+				<p><img src="../assets/images/1.4.jpg" alt="" class="workpic" style="margin-left: 35px;" ></p>
+			</aside>
+
+			<iframe src='https://player.vimeo.com/video/910879224' frameborder='0' style="padding: 10px;"
+					width="100%" webkitAllowFullScreen mozallowfullscreen allowFullScreen>
+			</iframe>
+
+			
 
 		</div>
 	</div>
@@ -76,7 +110,7 @@
 
 <hr class="hr" style="margin:0;">
 
-<footer id="footer" class="topspace" style="background-color:black; margin:auto;">
+<footer id="footer" style="background-color:black; margin:auto;" class="visible-lg visible-md visible-sm">
 	<div class="container">
 		<div class="row">
 
@@ -103,6 +137,22 @@
 			</div>
 		</div>
 	</div>
+</footer>
+
+<footer id="footer" style="background-color:black; margin:auto;" class="visible-xs">
+	<div class="row">
+		<div class="col-xs-4">
+		  <img src="../assets/images/logo.png" style="width:40vw;">
+		</div>
+		<div class="col-xs-4" style="padding-top: 20px;">
+			<h3 class="widget-title">Contact</h3>
+			<p>+213 541662355</p>
+		</div>
+		<div class="col-xs-4">
+			<h3 class="widget-title" style="padding-top: 20px;">Follow me</h3>
+			<a href="https://www.linkedin.com/in/azrou-nasrine/"><i class="fa fa-linkedin fa-2"></i></a>
+		</div>
+	  </div>
 </footer>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>

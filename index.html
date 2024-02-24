@@ -22,7 +22,7 @@
 		</h1>
 	</div>
 
-	<nav class="navbar navbar-default navbar-sticky">
+	<nav class="navbar navbar-default navbar-sticky visible-lg visible-md visible-sm">
 		<div class="container-fluid">
 			
 			<div class="navbar-header">
@@ -41,6 +41,17 @@
 			</div>			
 		</div>	
 	</nav>
+
+	<nav class="navbar-sticky visible-xs" style="background-color: gray;">
+		<div class="d-flex row nav-items" >
+			<div class="col-xs-1"></div>
+			<div class="active-nav col-xs-2 " style="margin-top: 10px;"><a href="index.html">Works</a></div>
+			<div class="col-xs-2" style="margin-top: 10px;"><a href="about.html">About</a></div>
+			<div class=" col-xs-2"><a href="blog.html">Imaginary museum</a></div>
+			<div class="col-xs-1"></div>
+			<div class="col-xs-2"><a href="last_doc.html">Last documents</a></div>
+		</div>
+	</nav>
 </header>
 
 <main id="main">
@@ -55,12 +66,12 @@
 
 			<p class="text-center">Below you can see links to my professional, school, personal works. Click on an image to view more details</p>
 			
-			<div class="thumbnails recentworks row flex-column-reverse ">
-				<div class="row" style="margin-left:150px; margin-bottom:50px;">
-					<aside class="col-sm-5 sidebar sidebar-right">
+			<div class="thumbnails recentworks row flex-column-reverse visible-lg visible-md visible-sm">
+				<div class="row row_class">
+					<aside class="col-sm-5 col-xs-8 sidebar sidebar-right">
 						<img src="assets/images/naz.png" width="500px" height="500px" alt="">
 					</aside>
-					<article class="col-sm-4 maincontent text-center" style="margin-top:50px;">
+					<article class="col-sm-4 col-xs-4 maincontent text-center" style="margin-top:50px;">
 						<span class="title">THIRIRITH N WAZAY</span>
 						<br><br>
 						<span class="details"><a href="">Documentary _ Director/ Producer</a> </span>
@@ -131,6 +142,61 @@
 					</article>
 				</div>
 
+			</div>
+
+			<div class="thumbnails recentworks row flex-column-reverse visible-xs">
+				<hr class="hr">
+
+				<span>THIRIRITH N WAZAY</span>
+				<br>
+				<span class="details"><a href="">Documentary _ Director/ Producer</a> </span>
+				<img src="assets/images/naz.png" alt="" class="workpic">
+				<br><br><br>
+				<p class="work-text">A short school film documentary captured one of north african nation ( Amazigh) practice, exploring through their rich culture and the role of amazigh women in highlighting the spirit of these tradions.</p>
+				<a class="btn btn-primary" href="works/thiririth_n_wazay.html">More here</a>
+				
+				<hr class="dotted-hr">
+				
+				<span class="title">Photography</span>
+				<br>
+				<span class="details"><a href=""></a> </span>
+				<img src="assets/images/photo2.jpg" class="workpic">>
+				<br><br><br>
+				<p class="work-text">Selection of my photography works include : landspace, portrait documentary, street...</p>
+				<a class="btn btn-primary" href="works/photography.html">More here</a>
+
+				<hr class="dotted-hr">
+
+				<span class="title">Wall sculpture</span>
+				<br>
+				<span class="details"><a href=""></a> </span>
+				<img src="assets/images/ness_tesbar.jpg" class="workpic">>
+				<br><br><br>
+				<p class="work-text">This part brings together all my works related to Sculpture</p>
+				<a class="btn btn-primary" href="works/sculture.html">More here</a>
+
+				<hr class="dotted-hr">
+
+				<span class="title"> Drawing Work</span>
+				<br>
+				<span class="details"><a href=""></a> </span>
+				<img src="assets/images/draw_face.png" class="workpic">>
+				<br><br><br>
+				<p class="work-text">Selection of my painting and drawings...</p>
+				<a class="btn btn-primary" href="works/drawings.html">More here</a>
+
+				<hr class="dotted-hr">
+
+				<span class="title"> Voluntary</span>
+				<br>
+				<span class="details"><a href=""> Cultural-association activities </a> </span>
+				<img src="assets/images/colors.jpg" class="workpic">>
+				<br><br><br>
+				<p class="work-text">As a cultural association volunteer, I worked close to the team in providing cultural and artistic activities.</p>
+				<a class="btn btn-primary" href="works/voluntary.html">More here</a>
+
+				<br><br><br>
+			</div>
 		</div>
 
 	</div>
@@ -143,7 +209,7 @@
 </body>
 <hr class="hr" style="margin:0;">
 
-<footer id="footer" style="background-color:black; margin:auto;">
+<footer id="footer" style="background-color:black; margin:auto;" class="visible-lg visible-md visible-sm">
 	<div class="container">
 		<div class="row">
 
@@ -170,5 +236,21 @@
 			</div>
 		</div>
 	</div>
+</footer>
+
+<footer id="footer" style="background-color:black; margin:auto;" class="visible-xs">
+	<div class="row">
+		<div class="col-xs-4">
+		  <img src="assets/images/logo.png" style="width:40vw;">
+		</div>
+		<div class="col-xs-4" style="padding-top: 20px;">
+			<h3 class="widget-title">Contact</h3>
+			<p>+213 541662355</p>
+		</div>
+		<div class="col-xs-4">
+			<h3 class="widget-title" style="padding-top: 20px;">Follow me</h3>
+			<a href="https://www.linkedin.com/in/azrou-nasrine/"><i class="fa fa-linkedin fa-2"></i></a>
+		</div>
+	  </div>
 </footer>
 </html>

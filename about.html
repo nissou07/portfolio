@@ -22,7 +22,7 @@
 		</h1>
 	</div>
 
-	<nav class="navbar navbar-default">
+	<nav class="navbar navbar-default navbar-sticky visible-lg visible-md visible-sm">
 		<div class="container-fluid">
 			
 			<div class="navbar-header">
@@ -41,6 +41,17 @@
 			</div>			
 		</div>	
 	</nav>
+
+	<nav class="navbar-sticky visible-xs" style="background-color: gray;">
+		<div class="d-flex row nav-items" >
+			<div class="col-xs-1"></div>
+			<div class="col-xs-2 " style="margin-top: 10px;"><a href="index.html">Works</a></div>
+			<div class="active-nav col-xs-2" style="margin-top: 10px;"><a href="about.html">About</a></div>
+			<div class=" col-xs-2"><a href="blog.html">Imaginary museum</a></div>
+			<div class="col-xs-1"></div>
+			<div class="col-xs-2"><a href="last_doc.html">Last documents</a></div>
+		</div>
+	</nav>
 </header>
 
 <main id="main">
@@ -52,7 +63,8 @@
 			<aside class="col-sm-4 sidebar sidebar-right">
 
 
-				<p><img src="assets/images/naz_bio.png" alt="" class="" width="100%"  ></p>
+				<p class="visible-lg visible-md visible-sm"><img src="assets/images/naz_bio.png" alt="" class="" width="100%"  ></p>
+				<p class="visible-xs"><img src="assets/images/naz_bio.png" alt="" class="" width="100%"  ></p>
 
 			</aside>
 
@@ -78,7 +90,7 @@ I am currently searching for entry-level production related roles where I can se
 
 <hr class="hr" style="margin:0;">
 
-<footer id="footer" class="topspace" style="background-color:black; margin:auto;">
+<footer id="footer" style="background-color:black; margin:auto;" class="visible-lg visible-md visible-sm">
 	<div class="container">
 		<div class="row">
 
@@ -105,6 +117,23 @@ I am currently searching for entry-level production related roles where I can se
 			</div>
 		</div>
 	</div>
+</footer>
+
+
+<footer id="footer" style="background-color:black; margin:auto;" class="visible-xs">
+	<div class="row">
+		<div class="col-xs-4">
+		  <img src="assets/images/logo.png" style="width:40vw;">
+		</div>
+		<div class="col-xs-4" style="padding-top: 20px;">
+			<h3 class="widget-title">Contact</h3>
+			<p>+213 541662355</p>
+		</div>
+		<div class="col-xs-4">
+			<h3 class="widget-title" style="padding-top: 20px;">Follow me</h3>
+			<a href="https://www.linkedin.com/in/azrou-nasrine/"><i class="fa fa-linkedin fa-2"></i></a>
+		</div>
+	  </div>
 </footer>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
